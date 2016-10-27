@@ -1,7 +1,7 @@
 [Flatpak Ref]
-Title=Skype
+Title=Skype Alpha
 Name=com.skype.Client
-Branch=master
+Branch=alpha
 Url=@URL@
 IsRuntime=False
 GPGKey=@GPG@
