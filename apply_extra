@@ -6,7 +6,7 @@ rm -f control.tar.gz data.tar.xz debian-binary
 mv usr/* .
 rmdir usr
 mkdir -p export/share/applications
-sed s/Icon=skypeforlinux/Icon=com.skype.Client/ share/applications/skypeforlinux.desktop > export/share/applications/com.skype.Client.desktop
+sed -e 's/Icon=skypeforlinux/Icon=com.skype.Client/' -e 's/\/usr\/bin\/skypeforlinux/\/app\/bin\/skype/' share/applications/skypeforlinux.desktop > export/share/applications/com.skype.Client.desktop
 echo StartupWMClass=Skype >> export/share/applications/com.skype.Client.desktop
 mkdir -p export/share/icons/hicolor/256x256/apps
 cp share/icons/hicolor/256x256/apps/skypeforlinux.png export/share/icons/hicolor/256x256/apps/com.skype.Client.png
