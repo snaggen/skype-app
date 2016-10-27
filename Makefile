@@ -11,7 +11,7 @@ test: repo com.skype.Client.json
 
 release: release-repo com.skype.Client.json
 	if [ "x${RELEASE_GPG_KEY}" == "x" ]; then echo Must set RELEASE_GPG_KEY in Makefile.config, try \'make gpg-key\'; exit 1; fi
-	flatpak-builder --force-clean --repo=release-repo  --ccache --require-changes --gpg-homedir=gpg --gpg-sign=${RELEASE_GPG_KEY} skype  com.skype.Client.json
+	flatpak-builder --force-clean --repo=release-repo  --ccache --gpg-homedir=gpg --gpg-sign=${RELEASE_GPG_KEY} skype  com.skype.Client.json
 	flatpak build-update-repo --generate-static-deltas --gpg-homedir=gpg --gpg-sign=${RELEASE_GPG_KEY} release-repo
 
 repo:
