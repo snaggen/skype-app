@@ -1,0 +1,11 @@
+[Flatpak Ref]
+Title=Skype
+Name=com.skype.Client
+Branch=master
+Url=@URL@
+IsRuntime=False
+GPGKey=@GPG@
+
+Comment=Spotify
+Description=Linux version of the skype client
+Icon=http://icons.iconarchive.com/icons/danleech/simple/256/skype-icon.png
