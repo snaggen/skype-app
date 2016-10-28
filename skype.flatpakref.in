@@ -6,6 +6,6 @@ Url=@URL@
 IsRuntime=False
 GPGKey=@GPG@
 
-Comment=Spotify
+Comment=Skype
 Description=Linux version of the skype client
 Icon=http://icons.iconarchive.com/icons/danleech/simple/256/skype-icon.png
