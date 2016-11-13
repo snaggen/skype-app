@@ -147,8 +147,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgnome-keyring/2.32/libgnome-keyring-2.32.0.tar.gz",
-                    "sha256": "0f6e485ce26cdee1f3e24c994815628677d20b1946fbe7997a38bf83c3133862"
+                    "url": "https://download.gnome.org/sources/libgnome-keyring/3.12/libgnome-keyring-3.12.0.tar.xz",
+                    "sha256": "c4c178fbb05f72acc484d22ddb0568f7532c409b0a13e06513ff54b91e947783"
                 }
             ]
         },
