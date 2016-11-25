@@ -1,9 +1,6 @@
 include Makefile.config
 
 all: test
-	rm -rf skype
-	flatpak-builder -v --repo=repo skype com.skype.Client.json
-	flatpak build-update-repo repo
 
 test: repo com.skype.Client.json
 	flatpak-builder --force-clean --repo=repo --ccache --require-changes skype com.skype.Client.json
