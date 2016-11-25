@@ -21,7 +21,7 @@
         /* Notification access */
         "--talk-name=org.gtk.Notifications", "--talk-name=org.freedesktop.Notifications",
 
-        "--extra-data=skypeforlinux-64-alpha.deb:5a938754e9fd96d32b0a585ff92ac34a2fe329467bddf474223bfd0620e2a89e:48019336::https://go.skype.com/skypeforlinux-64-alpha.deb"
+        "--extra-data=skypeforlinux-64-alpha.deb:a495a55b28d2ae16c9adea86c606eca30d48df410e02be2d488cab776bb84dc1:48022524::https://go.skype.com/skypeforlinux-64-alpha.deb"
     ],
     "build-options" : {
         "cflags": "-O2 -g",
