@@ -3,6 +3,7 @@ Title=Skype Alpha
 Name=com.skype.Client
 Branch=alpha
 Url=@URL@
+RuntimeRepo=https://sdk.gnome.org/gnome.flatpakrepo
 IsRuntime=False
 GPGKey=@GPG@
 
