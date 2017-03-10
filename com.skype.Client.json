@@ -9,6 +9,8 @@
     "finish-args": [
         /* X11 + XShm access */
         "--share=ipc", "--socket=x11",
+        /* Access to webcam require access to devices */
+        "--device=all",
         /* Sound access */
         "--socket=pulseaudio",
         /* Network access */
