@@ -167,8 +167,15 @@
                 }
             ]
         },
-
-
+        {
+            "name": "flatpak-xdg-open-shim",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "git://github.com/mattdangerw/flatpak-xdg-open-shim"
+                }
+            ]
+        },
         {
             "name": "skype",
             "no-autogen": true,
