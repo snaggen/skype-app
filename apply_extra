@@ -1,6 +1,6 @@
 #!/bin/sh
-ar x skypeforlinux-64-alpha.deb 
-rm -f skypeforlinux-64-alpha.deb 
+ar x skypeforlinux-64.deb 
+rm -f skypeforlinux-64.deb 
 tar xf data.tar.xz
 rm -f control.tar.gz data.tar.xz debian-binary
 mv usr/* .
