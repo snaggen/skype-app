@@ -1,7 +1,7 @@
 {
     "app-id": "com.skype.Client",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.4",
+    "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
     "branch": "alpha",
     "command": "skype",
@@ -23,7 +23,7 @@
         /* Notification access */
         "--talk-name=org.gtk.Notifications", "--talk-name=org.freedesktop.Notifications",
 
-        "--extra-data=skypeforlinux-64-alpha.deb:b412a1aa8c25d624e8778c81cc276fe61015f548015d459f92020b0b7a3068a3:50611910::https://go.skype.com/skypeforlinux-64-alpha.deb"
+        "--extra-data=skypeforlinux-64.deb:b412a1aa8c25d624e8778c81cc276fe61015f548015d459f92020b0b7a3068a3:50611910::https://go.skype.com/skypeforlinux-64.deb"
     ],
     "build-options" : {
         "cflags": "-O2 -g",
@@ -167,8 +167,6 @@
                 }
             ]
         },
-
-
         {
             "name": "skype",
             "no-autogen": true,
