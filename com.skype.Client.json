@@ -3,7 +3,7 @@
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
-    "branch": "alpha",
+    "branch": "stable",
     "command": "skype",
     "separate-locales": false,
     "finish-args": [
@@ -16,14 +16,16 @@
         /* Network access */
         "--share=network",
 	/* File system access */
-	"--filesystem=xdg-download", 
 	"--filesystem=home:ro",
+	"--filesystem=xdg-download",
+	"--filesystem=xdg-config",
+	"--filesystem=xdg-cache",
         /* Secrets access */
         "--talk-name=org.freedesktop.secrets",
         /* Notification access */
         "--talk-name=org.gtk.Notifications", "--talk-name=org.freedesktop.Notifications",
 
-        "--extra-data=skypeforlinux-64.deb:1f31c0e9379f680f2ae2b4db3789e936627459fe0677306895a7fa096c7db2c5:53921360::https://go.skype.com/skypeforlinux-64.deb"
+        "--extra-data=skypeforlinux-64.deb:99ed59bfc5521f643071694a23f2387dac016038776d48ab03165c2e35c5c5e4:53937734::https://repo.skype.com/latest/skypeforlinux-64.deb"
     ],
     "build-options" : {
         "cflags": "-O2 -g",
@@ -45,7 +47,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.kernel.org/pub/linux/utils/kernel/hotplug/udev-175.tar.bz2",
+                    "url": "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev-175.tar.bz2",
                     "sha256": "4c7937fe5a1521316ea571188745b9a00a9fdf314228cffc53a7ba9e5968b7ab"
                 }
             ]
